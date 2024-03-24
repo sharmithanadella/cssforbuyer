@@ -1,0 +1,83 @@
+
+/* this is search manufacturer css vey. this contains the options vey */
+.search-manufacturer {
+  position: relative;
+}
+
+.search-manufacturer__input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.search-manufacturer__option {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.search-manufacturer__option:hover,
+.search-manufacturer__option:focus {
+  background-color: #f0f0f0;
+}
+
+/* this is car card components vey */
+.car-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.car-card__content-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.car-card__icon {
+  display: flex;
+  align-items: center;
+}
+
+.car-card__icon img {
+  margin-right: 0.5rem;
+}
+
+.car-card__btn-container {
+  margin-top: 1rem;
+}
+
+/* this is the box at the end vey. id we click it we will get car owner details */
+.additional-box {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.additional-box h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.additional-box p {
+  margin-bottom: 0.5rem;
+}
+
+.additional-box button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.additional-box button:hover {
+  background-color: #0056b3;
+}
